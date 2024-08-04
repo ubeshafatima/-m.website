@@ -4,6 +4,36 @@ padding: 0px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.intro{
+background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-green-gradient-geometric-beautiful-gradient-image_11792.jpg);
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-position: center;
+background-size: cover;
+display: flex;
+}
+
+.dmw{
+    margin-top: 200px;
+    margin-left: 680px;
+}
+
+.intr{
+    margin-top: 600px;
+}
+
+.findout{
+    margin-top:-70px;
+   margin-left: 900px;
+   color: #000;
+}
+
+.findout{
+    scrollbar-color: black;
+    
+}
+
 .image{
 width: 100%;
 height: 100vh;
@@ -340,7 +370,7 @@ margin-left: 750px;
 
 .overlay{
     width: 100%;
-    height:39vh;
+    height:45vh;
      display:flex;
     background-color:#54595fd5;
     color: white;
@@ -444,7 +474,7 @@ p{
     
     .text12{
         margin-left: 1100px;
-        margin-top: -260px;
+        margin-top: -220px;
         width: 30%;
         font-size: x-large;
         font-family: calbrie;
@@ -467,7 +497,7 @@ p{
     
     ul li{
         font-family:Arial, sans-serif;
-        font-size: large;
+        font-size: 22px;
         padding-inline-start: 5px;
     }
     
@@ -561,8 +591,8 @@ p{
     }  
     .color1{
         background-color:#38c7b3;
-        height: 950px;
-        margin-top: -270px;
+        height: 700px;
+        margin-top: -210px;
     } 
     .heading h2{
      margin-top: 180px;
@@ -571,7 +601,7 @@ p{
     }
     
     .icon1{
-        margin-top: -700px;
+        margin-top: -500px;
         margin-left: 400px;
     }
     
@@ -593,7 +623,7 @@ p{
     }
     
     .heading2{
-    margin-top: 100px;
+    margin-top: 10px;
      margin-left: 400px;
      font-size: 30px;
      font-family:'DM Serif Display', serif ;
@@ -605,10 +635,10 @@ p{
     
     .subbox1{
         background-color: white;
-        height: 604px;
+        height: 500px;
         width: 30%;
         margin-left: 1150px;
-        margin-top: -470px;
+        margin-top: -370px;
         position: absolute;
         padding: 30PX;
     
@@ -621,7 +651,7 @@ p{
         font-family:'DM Serif Display', serif ;
         margin-left: 100px;
         font-size: 47px;
-    margin-top: 50px;
+    margin-top: 5px;
     }
     
     .form {
@@ -655,28 +685,58 @@ p{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 100%;
         max-width: 500px;
+        font-weight:500px;
+        /* height: 50px; */
+
+    }
+    .name{
+        width: 80%;
+        margin-left: 3px;
+        margin-top: -19px;
+
     }
     
-    form h2 {
-        margin-bottom: 20px;
+    .lname{
+        float: right;
+        margin-top: -40px;
+        width: 80%;
+        margin-right: -180px;
     }
-    
-    label {
+
+    .email{
+        margin-top: 40px;
+        padding: 2px;
+        width: 970px;
+    }
+
+    .sub{
+        margin-top: 40px;
+        padding: 2px;
+        width: 970px;
+
+    }
+    .msg{
+        margin-top: 70px;
+        width: 970px;
+    }
+     
+     label {
         display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-    }
+        font-weight:500px;
+    } 
     
     input, textarea {
-        width: 100%;
+        margin-top: -70px;
+        width: 50%;
         padding: 10px;
-        margin-bottom: 20px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        box-sizing: border-box;
+        box-sizing: border-box; 
+        height: 55px;
     }
     
     .btn{
+        margin-top: 50px;
         width: 50%;
         padding: 10px;
         background-color: #fbfdfc;
@@ -688,3 +748,38 @@ p{
     }
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
